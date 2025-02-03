@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_notes">Нет заметок</string>
+    <string name="new_note">Новая заметка</string>
+    <string name="edit_note">Редактировать заметку</string>
+    <string name="title">Название</string>
+    <string name="type_something">Напишите что-нибудь…</string>
+    <string name="search">Поиск</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="note_has_been_saved_successfully">Заметка успешно добавлена.</string>
+    <string name="fields_cannot_be_empty">Поля не могут быть пустыми.</string>
+    <string name="note_has_been_edited_successfully">Заметка успешно отредактирована.</string>
+    <string name="delete_note">Удалить заметку</string>
+    <string name="delete_message">"Вы хотите удалить '%1$s' заметку?"</string>
+    <string name="cancel">Отменить</string>
+    <string name="note_has_been_deleted_successfully">Заметка успешно удалена.</string>
+</resources>

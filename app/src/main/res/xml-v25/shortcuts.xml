@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="new_note"
+        android:enabled="true"
+        android:icon="@drawable/baseline_new_note_24"
+        android:shortcutShortLabel="@string/new_note">
+
+        <intent
+            android:data="new_note"
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.github.mamedovilkin.notesx"
+            android:targetClass="io.github.mamedovilkin.notesx.view.activity.MainActivity" />
+
+    </shortcut>
+</shortcuts>

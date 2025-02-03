@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NotesX" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+        <item name="dialogCornerRadius">28dp</item>
+    </style>
+</resources>
