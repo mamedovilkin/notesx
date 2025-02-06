@@ -1,4 +1,5 @@
 *.iml
+Assets
 .gradle
 .idea
 .kotlin
