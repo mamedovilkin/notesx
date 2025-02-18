@@ -1,6 +1,7 @@
 package io.github.mamedovilkin.notesx.view.adapter
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.AsyncListDiffer
@@ -53,6 +54,7 @@ class NoteRecyclerViewAdapter : RecyclerView.Adapter<NoteRecyclerViewAdapter.Not
     inner class NotesRecyclerViewViewHolder(private val binding: NoteRecyclerViewItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun setNote(note: Note) {
+            binding.titleTextText.visibility = if (note.title.isEmpty()) View.GONE else View.VISIBLE
             binding.note = note
             binding.colorView.setBackgroundColor(note.color)
         }
