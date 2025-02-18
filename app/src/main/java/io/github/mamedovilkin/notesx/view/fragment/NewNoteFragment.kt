@@ -55,7 +55,7 @@ class NewNoteFragment : Fragment(R.layout.fragment_new_note) {
         val title = binding?.titleEditText?.text.toString().trim()
         val content = binding?.contentEditText?.text.toString().trim()
 
-        if (title.isNotEmpty() && content.isNotEmpty()) {
+        if (content.isNotEmpty()) {
             val random = Random()
             val note = Note(
                 0,
