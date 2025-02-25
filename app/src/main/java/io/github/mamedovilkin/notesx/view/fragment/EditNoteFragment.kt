@@ -76,7 +76,7 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note) {
     private fun deleteNote() {
         AlertDialog.Builder(view.context).apply {
             setTitle(getString(R.string.delete_note))
-            setMessage(getString(R.string.delete_message, note.title))
+            setMessage(getString(R.string.delete_message))
             setPositiveButton(getString(R.string.delete)) { _,_ ->
                 noteViewModel.deleteNote(note)
                 Toast.makeText(view.context, getString(R.string.note_has_been_deleted_successfully), Toast.LENGTH_LONG).show()

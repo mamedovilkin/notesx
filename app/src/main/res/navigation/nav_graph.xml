@@ -10,7 +10,7 @@
         android:id="@+id/home_fragment"
         android:name="io.github.mamedovilkin.notesx.view.fragment.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
 
         <action
             android:id="@+id/action_home_fragment_to_new_note_fragment"
@@ -26,7 +26,7 @@
         android:id="@+id/new_note_fragment"
         android:name="io.github.mamedovilkin.notesx.view.fragment.NewNoteFragment"
         android:label="fragment_new_note"
-        tools:layout="@layout/fragment_new_note" >
+        tools:layout="@layout/fragment_new_note">
 
         <action
             android:id="@+id/action_new_note_fragment_to_home_fragment"
@@ -38,7 +38,7 @@
         android:id="@+id/edit_note_fragment"
         android:name="io.github.mamedovilkin.notesx.view.fragment.EditNoteFragment"
         android:label="fragment_edit_note"
-        tools:layout="@layout/fragment_edit_note" >
+        tools:layout="@layout/fragment_edit_note">
 
         <action
             android:id="@+id/action_edit_note_fragment_to_home_fragment"
